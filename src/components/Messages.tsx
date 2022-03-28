@@ -21,7 +21,7 @@ const MessagesBlock = styled.div`
   flex-direction: column;
   gap: 0.5rem;
   .nick {
-    align-self: end;
+    align-self: flex-end;
   }
 `;
 
