@@ -26,7 +26,7 @@ const MessagesBlock = styled.div`
 `;
 
 const FriendMessage = styled.div`
-  align-self: start;
+  align-self: flex-start;
   padding: 0.5rem;
   max-width: 70%;
   border-radius: 0 1rem 1rem 1rem;
@@ -34,7 +34,7 @@ const FriendMessage = styled.div`
 `;
 
 const MyMessage = styled.div`
-  align-self: end;
+  align-self: flex-end;
   padding: 0.5rem;
   max-width: 70%;
   border-radius: 1rem 0 1rem 1rem;
