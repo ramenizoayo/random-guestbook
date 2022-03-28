@@ -83,6 +83,7 @@ const Main = ({ nick, setField, getMessages }: MainProps) => {
     let loc = location;
     if (location === 'all') loc = Math.random() >= 0.5 ? 'me' : 'friend';
     setField('location', loc);
+    setField('friendNick', input.friendNick);
 
     getMessages(input.nick, input.friendId, input.friendNick, input.year, loc);
   };
